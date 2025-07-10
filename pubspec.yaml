@@ -1,0 +1,39 @@
+name: trackwise
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  animated_bottom_navigation_bar: ^1.4.0
+  fl_chart: ^1.0.0
+  percent_indicator: ^4.2.5
+  font_awesome_flutter: ^10.8.0
+  ionicons: ^0.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.15.0
+  http: ^1.2.1
+  screenshot: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+  - assets/images/
